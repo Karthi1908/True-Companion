@@ -1,0 +1,11 @@
+fastapi==0.123.10
+pydantic==2.12.5
+google-adk==1.22.1
+google-genai==1.59.0
+python-dotenv==1.2.1
+opik==1.9.87
+uvicorn==0.40.0
+python-multipart==0.0.21
+httpx
+starlette
+anyio
