@@ -1,11 +1,20 @@
 fastapi==0.123.10
 pydantic==2.12.5
-google-adk==1.22.1
-google-genai==1.59.0
-python-dotenv==1.2.1
-opik==1.9.87
 uvicorn==0.40.0
 python-multipart==0.0.21
-httpx
 starlette
 anyio
+httpx
+
+# Google ADK & Gemini
+google-adk==1.22.1
+google-genai==1.59.0
+google-cloud-aiplatform
+google-auth
+google-api-python-client
+
+# Opik (optional but imported)
+opik==1.9.87
+
+# Utilities
+python-dotenv==1.2.1
